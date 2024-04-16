@@ -1,5 +1,8 @@
 /**
  * Retrieves a list of students.
+ * @param {{id: Number,
+ * firstName: String,
+ * location: String} []} students - The list of students
  */
 export default function getListStudents() {
   return [
